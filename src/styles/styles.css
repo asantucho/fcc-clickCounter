@@ -17,4 +17,11 @@ body .App {
 }
 body .App .freecodecamp-logo-container {
   width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+}
+body .App .freecodecamp-logo-container .freecodecamp-logo {
+  height: 50px;
 }/*# sourceMappingURL=styles.css.map */
