@@ -1,6 +1,6 @@
-import './App.css';
 import "./styles/styles.css"
 import freeCodeCampLogo from "./images/freecodecamp-logo.png"
+import Counter from "./components/Counter.js"
 import Button from "./components/Button.js"
 
 
@@ -21,6 +21,9 @@ function App() {
           />
         </div>
         <div className='main-container'>
+          <Counter 
+            clickAmount="5"
+          />
           <Button 
             text= "Click"
             isClick= {true}
